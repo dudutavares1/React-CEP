@@ -1,26 +1,32 @@
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
-body{
+body {
   background-color: rgb(95, 102, 102);
 }
-.conteudo{
+
+.banner {
+  text-align: center;
+  width: 30%;
+}
+.conteudo {
   background-color: chartreuse;
-  width:15%;
-  height:5%;
+  width: 15%;
+  height: 5%;
   margin-left: 40%;
   margin-top: 0%;
 }
 
- input {
+input {
   margin-left: 40%;
 }
 
-.resultado{
+.resultado {
   margin-top: 1%;
 }
-h1,h2 {
-  margin-left: 40%
+h1,
+h2 {
+  margin-left: 40%;
 }
