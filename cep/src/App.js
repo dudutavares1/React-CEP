@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import "./index";
 import "./App.css";
 
+
 class App extends Component {
 
   constructor(props) {
@@ -46,15 +47,15 @@ class App extends Component {
     const { result, inputDoCep } = this.state
 
     return (
-      <section className="">
+      <section className="section">
 
-        <img src="https://newordereditora.com.br/wp-content/uploads/2017/02/frete.png" alt="Imagem do Banner" className="banner" />
+        <img className="banner"  src="https://newordereditora.com.br/wp-content/uploads/2017/02/frete.png" alt="Imagem do Banner"/>
 
 
         <h2>Consulte o cep desejado</h2>
         <h4 className="merchan">Se desejar, baixe nosso APP no botão localizado logo abaixo:</h4>
-        <form onSubmit={this.onSearchSubmit}>
-          <button class="botao-baixar">Baixar App</button>
+        <form className="form" onSubmit={this.onSearchSubmit}>
+          <button class="botao-baixar"></button>
           <input className="resultado" type='text' value={inputDoCep} maxlength="8" onChange={this.onSearchChange} />
           <button type='submit'>Enviar</button>
         </form>
